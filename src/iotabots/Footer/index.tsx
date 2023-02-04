@@ -4,7 +4,7 @@ import { Box, Link, Typography } from '../../components'
 const Copyright: React.FC = () => {
   return (
     <Typography variant='body2' color='text.secondary' align='center'>
-      © iotabots.io
+      © ccdao.club
     </Typography>
   )
 }
@@ -54,22 +54,22 @@ export const Footer: React.FC = () => {
         sx={{ display: { xs: 'none', md: 'block' } }}
         variant='button'
       >
-        *BEE* *BOB* *BOO*
+        帮助零经验企业无缝转型进入Web3
       </Typography>
       <Box display='flex' sx={{ '& a': { cursor: 'pointer' } }}>
         <Link
-          href='https://discord.gg/iotabots'
+          href='https://t.me/NyganBuilder'
           target='_blank'
           rel='noreferrer'
           className='link decent'
           color='inherit'
         >
           <Typography ml={4} variant='body2' color='text.secondary'>
-            Discord
+            Telegram
           </Typography>
         </Link>
         <Link
-          href='https://twitter.com/iotabots'
+          href='https://twitter.com/AntCaveClub'
           target='_blank'
           rel='noreferrer'
           className='link decent'

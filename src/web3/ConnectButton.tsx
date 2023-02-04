@@ -46,7 +46,7 @@ export const ConnectButton: React.FC = () => {
       }}
       startIcon={<AccountBalanceWalletRoundedIcon />}
     >
-      {activating ? '...' : 'Connect'}
+      {activating ? '...' : '连接钱包'}
     </Button>
   )
 }
