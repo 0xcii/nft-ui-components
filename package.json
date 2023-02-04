@@ -4,6 +4,7 @@
   "private": false,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": "git@github.com:0xcii/nft-ui-components.git",
   "files": [
     "dist"
   ],
