@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, BoxProps } from '@mui/material'
-import logo from '../images/logo4.png'
+// import logo from '../images/logo4.png'
 
 export const Logo: React.FC<BoxProps> = (props) => {
   const { onClick } = props
@@ -12,7 +12,7 @@ export const Logo: React.FC<BoxProps> = (props) => {
         '&:hover': { cursor: 'pointer' }
       }}
     >
-      <img src={logo} width='120' height='80' alt='logo' />
+      <img src="https://ccdao.club/logo4.png" width='120' height='80' alt='logo' />
     </Box>
   )
 }
