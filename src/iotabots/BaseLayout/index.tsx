@@ -22,7 +22,7 @@ export const BaseLayout: React.FC<BaseLayoutProps> = (props) => {
         }}
       >
         {children}
-        <Footer />
+        {/* <Footer /> */}
       </Box>
     </Box>
   )

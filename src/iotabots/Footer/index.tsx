@@ -56,7 +56,7 @@ export const Footer: React.FC = () => {
       >
         帮助零经验企业无缝转型进入Web3
       </Typography>
-      <Box display='flex' sx={{ '& a': { cursor: 'pointer' } }}>
+      {/* <Box display='flex' sx={{ '& a': { cursor: 'pointer' } }}>
         <Link
           href='https://t.me/NyganBuilder'
           target='_blank'
@@ -79,7 +79,7 @@ export const Footer: React.FC = () => {
             Twitter
           </Typography>
         </Link>
-      </Box>
+      </Box> */}
     </Box>
   )
 }
