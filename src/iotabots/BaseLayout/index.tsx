@@ -1,7 +1,7 @@
 /* eslint-disable react/require-default-props */
 import React from 'react'
 import { Box } from '../../components'
-import { Footer } from '../Footer'
+// import { Footer } from '../Footer'
 import { Frame } from '../Frame'
 
 export interface BaseLayoutProps {
