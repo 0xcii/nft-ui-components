@@ -41,7 +41,7 @@ export const Footer: React.FC = () => {
         mb={0}
       >
         <Link
-          href='https://twitter.com/iotabots'
+          href='https://twitter.com/AntCaveClub'
           target='_blank'
           rel='noreferrer'
           className='link decent'
@@ -56,9 +56,9 @@ export const Footer: React.FC = () => {
       >
         帮助零经验企业无缝转型进入Web3
       </Typography>
-      {/* <Box display='flex' sx={{ '& a': { cursor: 'pointer' } }}>
+      <Box display='flex' sx={{ '& a': { cursor: 'pointer' } }}>
         <Link
-          href='https://t.me/NyganBuilder'
+          href='https://t.me/madaodev'
           target='_blank'
           rel='noreferrer'
           className='link decent'
@@ -79,7 +79,7 @@ export const Footer: React.FC = () => {
             Twitter
           </Typography>
         </Link>
-      </Box> */}
+      </Box>
     </Box>
   )
 }
