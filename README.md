@@ -24,8 +24,8 @@ npm i @ccdao/components
 ```
 
 ```
-npm version 0.1.0 -m "Bump version to: %s [skip ci]"
-npm publish
+yarn version 0.1.0 -m "Bump version to: %s [skip ci]"
+yarn publish
 ```
 ### 🎨 Theme Provider
 Add this to your root app file. The theme will default to dark mode. You can select `light` and `dark` theme via the `theme` property.
