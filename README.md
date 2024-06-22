@@ -52,10 +52,7 @@ import { Button } from '@ccdao/components';
 </Button>
 ...
 ```
-
-### 🌗 Light and Darkmode
-In case you want your users to toggle between light and dark, create a new file called `Theme.tsx` like we do here https://github.com/iotabots/iotabots.io/blob/main/contexts/Theme.tsx. If you want the user's mode to be stored in local storage, also see these imports in the Theme https://github.com/iotabots/iotabots.io/blob/main/utils/localStorage.ts. Otherwise just remove the utils `getItem` and `setItem`.
-
+ 
 ## ℹ️ Info
 
 ### Material UI
